@@ -1,0 +1,130 @@
+/* [project]/app/globals.css [app-client] (css) */
+:root {
+  --font-display: "Cormorant Garamond", Georgia, serif;
+  --font-body: "Outfit", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  color: #1f1f1f;
+  background: #f4f6f8;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  color: #1f1f1f;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+p, span, div:not([class]), a, li, button, input, textarea, select {
+  font-family: var(--font-body);
+}
+
+.font-display {
+  font-family: var(--font-display) !important;
+}
+
+.font-body {
+  font-family: var(--font-body) !important;
+}
+
+.container {
+  width: min(1100px, 90%);
+  margin: auto;
+  padding-top: 40px;
+}
+
+nav {
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  z-index: 999;
+  background: #ffffffcf;
+  border-bottom: 1px solid #e7e7e7;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 40px;
+  display: flex;
+  position: sticky;
+  top: 0;
+}
+
+nav h2 {
+  letter-spacing: 1px;
+  font-size: 22px;
+}
+
+.nav-links a {
+  color: #333;
+  margin-left: 25px;
+  font-size: 16px;
+  text-decoration: none;
+  transition: all .3s;
+}
+
+.nav-links a:hover {
+  color: #0070f3;
+}
+
+h1 {
+  margin-bottom: 15px;
+  font-size: 38px;
+  font-weight: 800;
+}
+
+h2 {
+  margin-bottom: 15px;
+  font-size: 28px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  padding: 25px;
+  transition: transform .2s;
+  box-shadow: 0 8px 16px #0000000f;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.btn {
+  color: #fff;
+  background: #0070f3;
+  border-radius: 6px;
+  padding: 12px 20px;
+  text-decoration: none;
+  transition: all .3s;
+  display: inline-block;
+}
+
+/*# sourceMappingURL=app_globals_css_bad6b30c._.single.css.map*/

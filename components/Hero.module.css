@@ -1,0 +1,86 @@
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 100px auto;
+    padding: 0 20px;
+    font-family: sans-serif;
+    gap: 50px;
+  }
+  
+  .content {
+    flex: 1;
+  }
+  
+  /* Animation d'apparition */
+  .animate {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.8s ease forwards;
+  }
+  
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Délais pour l'affichage progressif */
+  .title { font-size: 2.5rem; color: #334155; margin-bottom: 20px; animation-delay: 0.1s; }
+  .description { color: #64748b; line-height: 1.6; font-size: 1.1rem; margin-bottom: 30px; animation-delay: 0.3s; }
+  .buttonContainer { animation-delay: 0.5s; margin-bottom: 25px; }
+  .socials { display: flex; gap: 15px; animation-delay: 0.7s; }
+  
+  .btn {
+    background-color: #334155;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: background 0.3s;
+  }
+  
+  .btn:hover { background-color: #1e293b; }
+  
+  .socialIcon { width: 24px; height: 24px; color: #475569; }
+  
+  /* Section Image */
+  .imageContainer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    animation-delay: 0.4s;
+  }
+  
+  .profileCircle {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: 2px solid #e2e8f0;
+    background-color: #f8fafc;
+    box-shadow: 20px 20px 60px #d1d5db, -20px -20px 60px #ffffff;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .profileLabel {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    font-size: 0.9rem;
+    color: #64748b;
+  }
+  
+  @media (max-width: 768px) {
+    .hero { flex-direction: column-reverse; text-align: center; margin: 40px auto; }
+    .profileCircle { width: 280px; height: 280px; }
+    .socials { justify-content: center; }
+  }

@@ -1,0 +1,79 @@
+.container {
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 0 20px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .chartSection {
+    max-width: 500px;
+    margin: 0 auto 40px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+  }
+  
+  .subtitle {
+    color: #64748b;
+    font-size: 1rem;
+    margin-bottom: 50px;
+  }
+  
+  .categorySection {
+    margin-bottom: 40px;
+  }
+  
+  .categoryTitle {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 25px;
+    position: relative;
+  }
+  
+  .iconGrid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .techItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80px;
+    transition: transform 0.3s ease;
+  }
+  
+  .techItem:hover {
+    transform: scale(1.1);
+  }
+  
+  .techIcon {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    margin-bottom: 8px;
+  }
+  
+  .techName {
+    font-size: 0.85rem;
+    color: #475569;
+  }
+  
+  /* Animation de révélation */
+  .reveal {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.8s ease forwards;
+  }
+  
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

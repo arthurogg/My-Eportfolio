@@ -1,0 +1,253 @@
+import styles from './page.module.css';
+import { FaCalendarAlt, FaMapMarkerAlt, FaExternalLinkAlt, FaBuilding, FaDownload, FaLanguage, FaGlobe } from 'react-icons/fa';
+import Image from 'next/image';
+
+export default function Internships() {
+  // Candidatures ciblées pour des entreprises spécifiques
+  const targetedCompanies = [
+    {
+      id: 1,
+      name: "Google",
+      logo: "/logos/google.png",
+      description: "Leading technology company specializing in search, cloud computing, and AI innovations.",
+      location: "Mountain View, CA / Remote",
+      jobOffer: {
+        title: "Software Engineering Intern - Summer 2025",
+        description: "Work on cutting-edge projects in machine learning, distributed systems, or mobile development.",
+        requirements: ["Computer Science background", "Python/Java proficiency", "Problem-solving skills"],
+        link: "https://careers.google.com/jobs/"
+      },
+      applicationStatus: "Applied",
+      documents: {
+        cv: "/documents/CV_Google_EN.pdf",
+        coverLetter: "/documents/CoverLetter_Google_EN.pdf"
+      }
+    },
+    {
+      id: 2,
+      name: "Microsoft",
+      logo: "/logos/microsoft.png", 
+      description: "Global technology leader in cloud computing, productivity software, and enterprise solutions.",
+      location: "Redmond, WA / Paris, France",
+      jobOffer: {
+        title: "Data Science Intern",
+        description: "Analyze large datasets and build machine learning models for Azure cloud services.",
+        requirements: ["Statistics/ML background", "Python/R proficiency", "Cloud experience"],
+        link: "https://careers.microsoft.com/"
+      },
+      applicationStatus: "In Review",
+      documents: {
+        cv: "/documents/CV_Microsoft_EN.pdf",
+        coverLetter: "/documents/CoverLetter_Microsoft_EN.pdf"
+      }
+    },
+    {
+      id: 3,
+      name: "Airbus",
+      logo: "/logos/airbus.png",
+      description: "European aerospace corporation designing, manufacturing and selling civil and military aerospace products.",
+      location: "Toulouse, France",
+      jobOffer: {
+        title: "Stage Ingénieur Data Science",
+        description: "Développement d'algorithmes d'IA pour l'optimisation des systèmes aéronautiques.",
+        requirements: ["Formation ingénieur", "Python/MATLAB", "Expérience en aéronautique"],
+        link: "https://www.airbus.com/careers/"
+      },
+      applicationStatus: "Preparing",
+      documents: {
+        cv: "/documents/CV_Airbus_FR.pdf",
+        coverLetter: "/documents/LettreMotivation_Airbus_FR.pdf"
+      }
+    }
+  ];
+
+  // Documents génériques pour candidatures internationales
+  const genericDocuments = {
+    company: "International Applications",
+    logo: "/logos/international.png",
+    documents: {
+      cvEN: "/documents/CV_International_EN.pdf",
+      cvFR: "/documents/CV_International_FR.pdf",
+      coverLetterEN: "/documents/CoverLetter_Generic_EN.pdf",
+      coverLetterFR: "/documents/LettreMotivation_Generic_FR.pdf",
+      transcripts: "/documents/Academic_Transcripts.pdf",
+      portfolio: "/documents/Portfolio_Projects.pdf"
+    }
+  };
+
+  const getStatusColor = (status: string) => {
+    switch (status) {
+      case "Applied": return styles.statusApplied;
+      case "In Review": return styles.statusReview;
+      case "Preparing": return styles.statusPreparing;
+      default: return styles.statusDefault;
+    }
+  };
+
+  return (
+    <div className={styles.container}>
+      <header className={`${styles.header} ${styles.reveal}`} style={{ animationDelay: '0.1s' }}>
+        <h1>Internship Applications</h1>
+        <p>Strategic applications to leading technology and aerospace companies</p>
+      </header>
+
+      {/* Targeted Company Applications */}
+      <section className={styles.section}>
+        <div className={`${styles.sectionHeader} ${styles.reveal}`} style={{ animationDelay: '0.2s' }}>
+          <FaBuilding className={styles.sectionIcon} />
+          <h2>Targeted Applications</h2>
+        </div>
+
+        <div className={styles.companiesGrid}>
+          {targetedCompanies.map((company, index) => (
+            <div 
+              key={company.id} 
+              className={`${styles.companyCard} ${styles.reveal}`}
+              style={{ animationDelay: `${0.3 + index * 0.1}s` }}
+            >
+              <div className={styles.companyHeader}>
+                <div className={styles.companyInfo}>
+                  <div className={styles.companyLogo}>
+                    {company.logo ? (
+                      <Image
+                        src={company.logo}
+                        alt={`${company.name} logo`}
+                        width={60}
+                        height={60}
+                        style={{ objectFit: 'contain' }}
+                      />
+                    ) : (
+                      <FaBuilding />
+                    )}
+                  </div>
+                  <div className={styles.companyDetails}>
+                    <h3>{company.name}</h3>
+                    <div className={styles.location}>
+                      <FaMapMarkerAlt /> {company.location}
+                    </div>
+                  </div>
+                </div>
+                <span className={`${styles.status} ${getStatusColor(company.applicationStatus)}`}>
+                  {company.applicationStatus}
+                </span>
+              </div>
+
+              <p className={styles.companyDescription}>{company.description}</p>
+
+              <div className={styles.jobOffer}>
+                <h4>{company.jobOffer.title}</h4>
+                <p>{company.jobOffer.description}</p>
+                
+                <div className={styles.requirements}>
+                  <strong>Key Requirements:</strong>
+                  <ul>
+                    {company.jobOffer.requirements.map((req, idx) => (
+                      <li key={idx}>{req}</li>
+                    ))}
+                  </ul>
+                </div>
+
+                <a 
+                  href={company.jobOffer.link} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className={styles.jobLink}
+                >
+                  <FaExternalLinkAlt /> View Job Posting
+                </a>
+              </div>
+
+              <div className={styles.documents}>
+                <h4>Application Documents:</h4>
+                <div className={styles.documentLinks}>
+                  <a 
+                    href={company.documents.cv} 
+                    className={styles.docLink}
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                  >
+                    <FaDownload /> CV
+                  </a>
+                  <a 
+                    href={company.documents.coverLetter} 
+                    className={styles.docLink}
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                  >
+                    <FaDownload /> Cover Letter
+                  </a>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Generic Documents Section */}
+      <section className={`${styles.section} ${styles.documentsSection}`}>
+        <div className={`${styles.sectionHeader} ${styles.reveal}`} style={{ animationDelay: '0.6s' }}>
+          <FaLanguage className={styles.sectionIcon} />
+          <h2>Application Documents Library</h2>
+        </div>
+
+        <div className={`${styles.genericDocuments} ${styles.reveal}`} style={{ animationDelay: '0.7s' }}>
+          <div className={styles.documentHeader}>
+            <div className={styles.docIcon}>
+              <FaGlobe />
+            </div>
+            <div>
+              <h3>International Application Kit</h3>
+              <p>Complete set of documents for various internship applications</p>
+            </div>
+          </div>
+
+          <div className={styles.documentGrid}>
+            <div className={styles.docCategory}>
+              <h4>🇺🇸 English Documents</h4>
+              <div className={styles.docLinks}>
+                <a href={genericDocuments.documents.cvEN} className={styles.docLink} target="_blank" rel="noopener noreferrer">
+                  <FaDownload /> International CV (EN)
+                </a>
+                <a href={genericDocuments.documents.coverLetterEN} className={styles.docLink} target="_blank" rel="noopener noreferrer">
+                  <FaDownload /> Generic Cover Letter (EN)
+                </a>
+              </div>
+            </div>
+
+            <div className={styles.docCategory}>
+              <h4>🇫🇷 Documents Français</h4>
+              <div className={styles.docLinks}>
+                <a href={genericDocuments.documents.cvFR} className={styles.docLink} target="_blank" rel="noopener noreferrer">
+                  <FaDownload /> CV International (FR)
+                </a>
+                <a href={genericDocuments.documents.coverLetterFR} className={styles.docLink} target="_blank" rel="noopener noreferrer">
+                  <FaDownload /> Lettre de Motivation (FR)
+                </a>
+              </div>
+            </div>
+
+            <div className={styles.docCategory}>
+              <h4>📚 Academic & Portfolio</h4>
+              <div className={styles.docLinks}>
+                <a href={genericDocuments.documents.transcripts} className={styles.docLink} target="_blank" rel="noopener noreferrer">
+                  <FaDownload /> Academic Transcripts
+                </a>
+                <a href={genericDocuments.documents.portfolio} className={styles.docLink} target="_blank" rel="noopener noreferrer">
+                  <FaDownload /> Project Portfolio
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className={`${styles.ctaSection} ${styles.reveal}`} style={{ animationDelay: '0.8s' }}>
+        <p>Interested in my professional experience?</p>
+        <a href="/career/experience" className={styles.btnPrimary}>
+          View Work Experience <span>→</span>
+        </a>
+      </section>
+    </div>
+  );
+}

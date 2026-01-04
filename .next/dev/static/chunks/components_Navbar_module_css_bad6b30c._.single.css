@@ -1,0 +1,135 @@
+/* [project]/components/Navbar.module.css [app-client] (css) */
+:root {
+  --font-display: "Cormorant Garamond", Georgia, serif;
+  --font-body: "Outfit", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.Navbar-module__nuAbfa__navbar {
+  z-index: 1000;
+  height: 80px;
+  font-family: var(--font-body);
+  background-color: #fff;
+  border-bottom: 1px solid #f1f5f9;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+  display: flex;
+  position: sticky;
+  top: 0;
+}
+
+.Navbar-module__nuAbfa__link {
+  font-family: var(--font-body);
+  color: #475569;
+  border-radius: 6px;
+  padding: 8px 16px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all .2s;
+}
+
+.Navbar-module__nuAbfa__navLinks {
+  align-items: center;
+  gap: 8px;
+  display: flex;
+}
+
+.Navbar-module__nuAbfa__dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.Navbar-module__nuAbfa__dropdownToggle {
+  cursor: pointer;
+}
+
+.Navbar-module__nuAbfa__dropdownMenu {
+  z-index: 1001;
+  background-color: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  min-width: 200px;
+  animation: .2s ease-out Navbar-module__nuAbfa__dropdownFadeIn;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  box-shadow: 0 8px 32px #0000001f;
+}
+
+@keyframes Navbar-module__nuAbfa__dropdownFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.Navbar-module__nuAbfa__dropdownItem {
+  color: #475569;
+  border-bottom: 1px solid #f1f5f9;
+  padding: 12px 16px;
+  font-size: .9rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all .2s;
+  display: block;
+}
+
+.Navbar-module__nuAbfa__dropdownItem:last-child {
+  border-bottom: none;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.Navbar-module__nuAbfa__dropdownItem:first-child {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.Navbar-module__nuAbfa__dropdownItem:hover {
+  color: #1e293b;
+  background-color: #f8fafc;
+}
+
+.Navbar-module__nuAbfa__activeDropdown {
+  color: #3b82f6 !important;
+  background-color: #eff6ff !important;
+}
+
+.Navbar-module__nuAbfa__link {
+  color: #475569;
+  white-space: nowrap;
+  border-radius: 6px;
+  padding: 8px 14px;
+  font-size: .9rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all .2s;
+}
+
+.Navbar-module__nuAbfa__link:hover {
+  color: #1e293b;
+  background-color: #f8fafc;
+}
+
+.Navbar-module__nuAbfa__active {
+  color: #3b82f6 !important;
+  background-color: #eff6ff !important;
+}
+
+@media (max-width: 1200px) {
+  .Navbar-module__nuAbfa__link {
+    padding: 6px 10px;
+    font-size: .85rem;
+  }
+
+  .Navbar-module__nuAbfa__navLinks {
+    gap: 4px;
+  }
+}
+
+/*# sourceMappingURL=components_Navbar_module_css_bad6b30c._.single.css.map*/

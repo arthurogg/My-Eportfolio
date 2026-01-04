@@ -1,0 +1,5 @@
+[00:00:01.159] Server  LOG      ✓ Ready in 852ms
+[00:00:12.129] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:16.220] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:00:20.725] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/project-ml.jpg" "received" null
+[00:00:20.727] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/project-pipeline.jpg" "received" null

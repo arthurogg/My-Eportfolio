@@ -1,0 +1,133 @@
+/* Variables CSS pour polices uniformes */
+:root {
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    height: 80px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #f1f5f9;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    font-family: var(--font-body);
+  }
+  
+  .link {
+    font-family: var(--font-body);
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    color: #475569;
+    font-weight: 500;
+    transition: all 0.2s ease;
+  }
+  
+  .navLinks {
+    display: flex;
+    align-items: center;  
+    gap: 8px; /* Espacement serré comme sur l'image */
+  }
+
+/* Dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdownToggle {
+  cursor: pointer;
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #ffffff;
+  min-width: 200px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  z-index: 1001;
+  animation: dropdownFadeIn 0.2s ease-out;
+}
+
+@keyframes dropdownFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.dropdownItem {
+  display: block;
+  padding: 12px 16px;
+  color: #475569;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.dropdownItem:last-child {
+  border-bottom: none;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.dropdownItem:first-child {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.dropdownItem:hover {
+  background-color: #f8fafc;
+  color: #1e293b;
+}
+
+.activeDropdown {
+  color: #3b82f6 !important;
+  background-color: #eff6ff !important;
+}
+
+.link {
+  text-decoration: none;
+  color: #475569; /* Gris intermédiaire */
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding: 8px 14px;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  white-space: nowrap; /* Évite que le texte passe à la ligne */
+}
+
+.link:hover {
+  background-color: #f8fafc;
+  color: #1e293b;
+}
+
+/* Style de l'onglet actif vu sur ton image */
+.active {
+  color: #3b82f6 !important; /* Bleu vif */
+  background-color: #eff6ff !important; /* Bleu très pâle */
+}
+
+@media (max-width: 1200px) {
+  .link {
+    padding: 6px 10px;
+    font-size: 0.85rem;
+  }
+  .navLinks {
+    gap: 4px;
+  }
+}

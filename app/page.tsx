@@ -1,32 +1,44 @@
+import styles from './page.module.css';
+import { FaLinkedin, FaGithub, FaWhatsapp } from 'react-icons/fa';
+
 export default function Home() {
   return (
-    <div>
-      <h1>Bienvenue, je suis Yves Arthur Negoum</h1>
-      <p style={{ fontSize: "19px", maxWidth: "700px", marginTop: "15px" }}>
-        Développeur Full Stack passionné par la création d'expériences web modernes,
-        performantes et centrées sur l’utilisateur.
-      </p>
+    <div className={""}>
 
-      <a className="btn" href="/projects">Voir mes projets</a>
+      {/* Section Hero */}
+      <main className={styles.hero}>
+        <div className={styles.heroContent}>
+          <h1 className={`${styles.title} ${styles.reveal}`} style={{ animationDelay: '0.2s' }}>
+             Arthur Negoum <span></span>
+          </h1>
+          
+          <p className={`${styles.description} ${styles.reveal}`} style={{ animationDelay: '0.4s' }}>
+            Since my first steps into the digital world, I have always been fascinated by the power of data and its ability to uncover concrete solutions that improve our daily lives. Currently a student specializing in Big Data and HPC at ENSEEIHT (INP Toulouse), I am enthusiastically deep-diving into data exploitation. My ambition is to build a career dedicated to Data Analytics and Intelligence. 
+            
+            This portfolio retraces my journey, my data-oriented projects, and the values that define me.
+          </p>
 
-      <div style={{ marginTop: "60px" }}>
-        <h2>Compétences principales</h2>
+          <a href="/about" className={`${styles.btnAbout} ${styles.reveal}`} style={{ animationDelay: '0.6s' }}>
+            About Me <span>»</span>
+          </a>
 
-        <div className="grid">
-          <div className="card">
-            <h3>Frontend</h3>
-            <p>React, Next.js, HTML, CSS, JavaScript</p>
-          </div>
-          <div className="card">
-            <h3>Backend</h3>
-            <p>Node.js, Express, Java, Spring Boot</p>
-          </div>
-          <div className="card">
-            <h3>Base de données</h3>
-            <p>MySQL, PostgreSQL, MongoDB</p>
+          <div className={`${styles.socials} ${styles.reveal}`} style={{ animationDelay: '0.8s' }}>
+            <FaLinkedin />
+            <FaGithub />
+            <FaWhatsapp />
           </div>
         </div>
-      </div>
+
+        <div className={`${styles.imageContainer} ${styles.reveal}`} style={{ animationDelay: '0.4s' }}>
+          <div className={styles.circle}>
+            <img 
+              src="/2A4F6477-F8F0-4395-B2BC-549E07963B40.jpg" 
+              alt="Yves Arthur Negoum" 
+            />
+          </div>
+        </div>
+      </main>
+
     </div>
   );
 }

@@ -1,0 +1,9 @@
+/* 
+  FICHIER SUPPRIMÉ - Les polices sont maintenant gérées dans globals.css
+  Ce fichier était problématique car il contenait des sélecteurs globaux
+  incompatibles avec les CSS Modules.
+  
+  Les variables CSS sont disponibles dans tous les fichiers grâce à :
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+*/

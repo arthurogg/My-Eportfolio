@@ -1,0 +1,342 @@
+/* Mobility Page Styles - Visual Style like Example */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Outfit:wght@300;400;500;600&display=swap');
+
+/* Container */
+.container {
+  min-height: 100vh;
+  padding: 60px 20px;
+  background: #f3f4f6;
+}
+
+/* Section Styles */
+.section {
+  max-width: 1200px;
+  margin: 0 auto 60px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.sectionTitle {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 8px;
+}
+
+.sectionSubtitle {
+  font-size: 1.125rem;
+  color: #6b7280;
+  margin-bottom: 0;
+}
+
+/* Grid Layout for Mobility Cards */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 32px;
+}
+
+/* Individual Cards */
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transform: translateY(0);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* Image Wrapper with Overlay */
+.imageWrapper {
+  position: relative;
+  height: 256px;
+  width: 100%;
+}
+
+.cardImage {
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.card:hover .cardImage {
+  transform: scale(1.05);
+}
+
+.imageOverlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
+}
+
+.cityInfo {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  color: white;
+}
+
+.cityName {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0 0 4px;
+}
+
+.countryName {
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+/* Card Content */
+.cardContent {
+  padding: 24px;
+}
+
+.period {
+  font-size: 0.875rem;
+  color: #2563eb;
+  font-weight: 600;
+  margin: 0 0 16px;
+}
+
+.description {
+  color: #6b7280;
+  margin: 0 0 16px;
+  line-height: 1.6;
+}
+
+.highlights {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.highlight {
+  display: flex;
+  align-items: center;
+  color: #374151;
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+}
+
+.bullet {
+  width: 8px;
+  height: 8px;
+  background: #2563eb;
+  border-radius: 50%;
+  margin-right: 8px;
+  flex-shrink: 0;
+}
+
+/* Interests Grid */
+.interestsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 32px;
+}
+
+/* Interest Cards */
+.interestCard {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transform: translateY(0);
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.interestCard:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.interestImageWrapper {
+  position: relative;
+  height: 192px;
+  width: 100%;
+}
+
+.interestImage {
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.interestCard:hover .interestImage {
+  transform: scale(1.1);
+}
+
+.interestOverlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.interestCard:hover .interestOverlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.interestIcon {
+  font-size: 4rem;
+}
+
+.interestContent {
+  padding: 24px;
+}
+
+.interestTitle {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0 0 8px;
+  color: #1f2937;
+}
+
+.interestDescription {
+  color: #6b7280;
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Test Section */
+.testSection {
+  max-width: 600px;
+  margin: 80px auto 0;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  text-align: center;
+}
+
+.testHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.testIcon {
+  font-size: 2rem;
+  padding: 12px;
+  background: #dbeafe;
+  border-radius: 12px;
+}
+
+.testTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #000;
+  margin: 0;
+}
+
+.testDescription {
+  color: #6b7280;
+  margin: 4px 0 0;
+  font-size: 0.95rem;
+}
+
+.testContent {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.testContent p {
+  color: #6b7280;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.btnView {
+  background: #2563eb;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+}
+
+.btnView:hover {
+  background: #1d4ed8;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.4);
+}
+
+/* Animations */
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 0.8s cubic-bezier(0.23, 1, 0.32, 1) forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 40px 16px;
+  }
+  
+  .grid,
+  .interestsGrid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  
+  .section {
+    margin-bottom: 40px;
+  }
+  
+  .cardContent,
+  .interestContent {
+    padding: 20px;
+  }
+  
+  .imageWrapper,
+  .interestImageWrapper {
+    height: 200px;
+  }
+  
+  .testSection {
+    padding: 32px 24px;
+    margin-top: 40px;
+  }
+  
+  .testHeader {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sectionTitle {
+    font-size: 1.75rem;
+  }
+  
+  .interestIcon {
+    font-size: 3rem;
+  }
+  
+  .cityName {
+    font-size: 1.125rem;
+  }
+}

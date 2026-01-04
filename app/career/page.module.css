@@ -1,0 +1,106 @@
+/* Variables CSS pour polices uniformes */
+:root {
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0 20px;
+    font-family: var(--font-body);
+  }
+  
+  .title {
+    font-family: var(--font-display);
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #1f1f1f;
+    margin-bottom: 10px;
+  }
+  
+  .sectionTitle {
+    font-family: var(--font-display);
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #1f1f1f;
+  }
+  
+  .cardTitle {
+    font-family: var(--font-display);
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #1f1f1f;
+  }
+  
+  .header {
+    margin-bottom: 50px;
+    text-align: left;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 25px;
+  }
+  
+  .cardLink {
+    text-decoration: none;
+  }
+  
+  .card {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 30px;
+    border: 1px solid #e2e8f0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+    font-family: var(--font-body);
+  }
+  
+  .card h3 {
+    font-family: var(--font-display);
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+  
+  .card p {
+    font-family: var(--font-body);
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+  }
+  
+  .imageBox {
+    background: #1a232e; /* Fond sombre comme sur l'image */
+    height: 180px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .iconContainer {
+    font-size: 3rem;
+    color: #ffffff;
+  }
+  
+  /* --- Système d'animation --- */
+  .reveal {
+    opacity: 0;
+    animation: fadeInUp 0.6s ease forwards;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
