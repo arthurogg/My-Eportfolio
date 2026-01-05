@@ -20,3 +20,4 @@
 [00:08:38.180] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/photography.jpg" "received" null
 [00:08:38.181] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/sports.jpg" "received" null
 [00:08:38.188] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/tech.jpg" "received" null
+[00:09:50.583] Server  LOG      ✓ Compiled in 275ms
