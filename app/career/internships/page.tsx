@@ -7,42 +7,24 @@ export default function Internships() {
   const targetedCompanies = [
     {
       id: 1,
-      name: "Google",
-      logo: "/logos/google.png",
-      description: "Leading technology company specializing in search, cloud computing, and AI innovations.",
-      location: "Mountain View, CA / Remote",
+      name: "Airbus",
+      logo: "/image_airbus.png",
+      description: "Manufacturing of components for the aeronautical and aerospace industry.",
+      location: "Toulouse, France / Mountain View, CA",
       jobOffer: {
-        title: "Software Engineering Intern - Summer 2025",
-        description: "Work on cutting-edge projects in machine learning, distributed systems, or mobile development.",
-        requirements: ["Computer Science background", "Python/Java proficiency", "Problem-solving skills"],
-        link: "https://careers.google.com/jobs/"
+        title: "Stage 2026 - Stage en analyse de données (ALL GENDER)",
+        description: "This internship will involve supporting the department in the implementation of dashboards and KPIs to measure and improve the service’s performance across all activities.The internship will start in February 2026 and will last for six months (indicative title).",
+        requirements: ["data analyst", "Python", "Anglais :Intermédiaire (B1)"],
+        link: "https://www.linkedin.com/jobs/view/4309983638/?trk=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_8180862722&refId=xlnv045inpw96EoDDs4ozA%3D%3D&trackingId=uoxRE84Gv3hk1a9XbQiDnw%3D%3D"
       },
       applicationStatus: "Applied",
       documents: {
-        cv: "/documents/CV_Google_EN.pdf",
+        cv: "cv_Negoum.pdf",
         coverLetter: "/documents/CoverLetter_Google_EN.pdf"
       }
     },
     {
       id: 2,
-      name: "Microsoft",
-      logo: "/logos/microsoft.png", 
-      description: "Global technology leader in cloud computing, productivity software, and enterprise solutions.",
-      location: "Redmond, WA / Paris, France",
-      jobOffer: {
-        title: "Data Science Intern",
-        description: "Analyze large datasets and build machine learning models for Azure cloud services.",
-        requirements: ["Statistics/ML background", "Python/R proficiency", "Cloud experience"],
-        link: "https://careers.microsoft.com/"
-      },
-      applicationStatus: "In Review",
-      documents: {
-        cv: "/documents/CV_Microsoft_EN.pdf",
-        coverLetter: "/documents/CoverLetter_Microsoft_EN.pdf"
-      }
-    },
-    {
-      id: 3,
       name: "Airbus",
       logo: "/logos/airbus.png",
       description: "European aerospace corporation designing, manufacturing and selling civil and military aerospace products.",

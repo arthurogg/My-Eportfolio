@@ -590,34 +590,14 @@ function PPP() {
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$ppp$2f$page$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].networkingItem,
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                                            children: "🌐 ETE Community"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/app/ppp/page.tsx",
-                                                            lineNumber: 218,
-                                                            columnNumber: 19
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            children: "A community platform where former engineers share their career experiences through online webinars, providing a comprehensive view of potential job opportunities after graduation."
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/app/ppp/page.tsx",
-                                                            lineNumber: 219,
-                                                            columnNumber: 19
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                            href: "https://ete.community",
-                                                            className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$ppp$2f$page$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].networkingLink,
-                                                            target: "_blank",
-                                                            rel: "noopener noreferrer",
-                                                            children: "Visit ETE Community"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/app/ppp/page.tsx",
-                                                            lineNumber: 223,
-                                                            columnNumber: 19
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                                                        children: "🌐 ETE Community"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/ppp/page.tsx",
+                                                        lineNumber: 218,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                }, void 0, false, {
                                                     fileName: "[project]/app/ppp/page.tsx",
                                                     lineNumber: 217,
                                                     columnNumber: 17
@@ -626,55 +606,54 @@ function PPP() {
                                                     className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$ppp$2f$page$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].networkingItem,
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                                            children: "🔒 Cybersecurity Insights"
+                                                            children: "🔒 Data Insights"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/ppp/page.tsx",
-                                                            lineNumber: 234,
+                                                            lineNumber: 222,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            children: `Following Michel Kartner's expertise - a consultant and trainer in cybersecurity at CyberIni, 
-                    which offers valuable insights into the path of a cybersecurity professional.`
+                                                            children: `Following Patrick Ganduberg's YouTube channel has been instrumental in deepening my understanding of different jobs based on data.`
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/ppp/page.tsx",
-                                                            lineNumber: 235,
+                                                            lineNumber: 223,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$ppp$2f$page$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].linkGroup,
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                                    href: "https://www.youtube.com/c/MichelKartner",
+                                                                    href: "https://www.youtube.com/channel",
                                                                     className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$ppp$2f$page$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].networkingLink,
                                                                     target: "_blank",
                                                                     rel: "noopener noreferrer",
                                                                     children: "YouTube Channel"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/ppp/page.tsx",
-                                                                    lineNumber: 240,
+                                                                    lineNumber: 227,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                                    href: "https://www.linkedin.com/in/michel-kartner",
+                                                                    href: "https://www.linkedin.com/in/PatrickGanduberg",
                                                                     className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$ppp$2f$page$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].networkingLink,
                                                                     target: "_blank",
                                                                     rel: "noopener noreferrer",
                                                                     children: "LinkedIn Profile"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/ppp/page.tsx",
-                                                                    lineNumber: 248,
+                                                                    lineNumber: 235,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/ppp/page.tsx",
-                                                            lineNumber: 239,
+                                                            lineNumber: 226,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/ppp/page.tsx",
-                                                    lineNumber: 233,
+                                                    lineNumber: 221,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -684,14 +663,14 @@ function PPP() {
                                                             children: "🎯 Career Planning"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/ppp/page.tsx",
-                                                            lineNumber: 260,
+                                                            lineNumber: 247,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                             children: "Actively growing my network and exploring opportunities through MillionRoads platform for strategic career planning and connections."
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/ppp/page.tsx",
-                                                            lineNumber: 261,
+                                                            lineNumber: 248,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -702,13 +681,13 @@ function PPP() {
                                                             children: "MillionRoads Profile"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/ppp/page.tsx",
-                                                            lineNumber: 265,
+                                                            lineNumber: 252,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/ppp/page.tsx",
-                                                    lineNumber: 259,
+                                                    lineNumber: 246,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
@@ -750,7 +729,7 @@ function PPP() {
                         children: "Interested in my professional journey?"
                     }, void 0, false, {
                         fileName: "[project]/app/ppp/page.tsx",
-                        lineNumber: 282,
+                        lineNumber: 269,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -762,19 +741,19 @@ function PPP() {
                                 children: "→"
                             }, void 0, false, {
                                 fileName: "[project]/app/ppp/page.tsx",
-                                lineNumber: 284,
+                                lineNumber: 271,
                                 columnNumber: 24
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/ppp/page.tsx",
-                        lineNumber: 283,
+                        lineNumber: 270,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/ppp/page.tsx",
-                lineNumber: 281,
+                lineNumber: 268,
                 columnNumber: 7
             }, this)
         ]

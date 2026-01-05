@@ -216,29 +216,16 @@ export default function PPP() {
               <div className={styles.networkingList}>
                 <div className={styles.networkingItem}>
                   <h4>🌐 ETE Community</h4>
-                  <p>
-                    A community platform where former engineers share their career experiences through online 
-                    webinars, providing a comprehensive view of potential job opportunities after graduation.
-                  </p>
-                  <a 
-                    href="https://ete.community" 
-                    className={styles.networkingLink}
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                  >
-                    Visit ETE Community
-                  </a>
                 </div>
 
                 <div className={styles.networkingItem}>
-                  <h4>🔒 Cybersecurity Insights</h4>
+                  <h4>🔒 Data Insights</h4>
                   <p>
-                   {`Following Michel Kartner's expertise - a consultant and trainer in cybersecurity at CyberIni, 
-                    which offers valuable insights into the path of a cybersecurity professional.`}
+                   {`Following Patrick Ganduberg's YouTube channel has been instrumental in deepening my understanding of different jobs based on data.`}
                   </p>
                   <div className={styles.linkGroup}>
                     <a 
-                      href="https://www.youtube.com/c/MichelKartner" 
+                      href="https://www.youtube.com/channel" 
                       className={styles.networkingLink}
                       target="_blank" 
                       rel="noopener noreferrer"
@@ -246,7 +233,7 @@ export default function PPP() {
                       YouTube Channel
                     </a>
                     <a 
-                      href="https://www.linkedin.com/in/michel-kartner" 
+                      href="https://www.linkedin.com/in/PatrickGanduberg" 
                       className={styles.networkingLink}
                       target="_blank" 
                       rel="noopener noreferrer"
