@@ -51,7 +51,7 @@ function Contact() {
     const [isSubmitting, setIsSubmitting] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const [confirmationMessage, setConfirmationMessage] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     // Bot Telegram configuration
-    const BOT_TOKEN = '8067048437:AAH60FEAU5F139zzactwnDJ26TGBWXhB4mM';
+    const BOT_TOKEN = '8579957769:AAEMZ_f0KD24xN1aETMLVsXHklc6jo9RJI4';
     const CHAT_ID = '8050482135';
     // Contact information
     const contactInfo = {

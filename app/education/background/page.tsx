@@ -15,10 +15,18 @@ export default function AcademicBackground() {
     {
       period: "2021 - 2025",
       school: "ENSPY (École Nationale Supérieure Polytechnique de Yaoundé)",
-      path :"",
+      path :"/image.png",
       degree: "Engineering Degree",
       description: "Foundation in computer science, mathematics, and engineering principles.",
       location: "Yaoundé, Cameroon"
+    },
+    {
+      period: "2020 - 2021 ",
+      school: "Teerenstra Bilingual High School ",
+      path :"/image3.png",
+      degree: "Scientific Baccalaureate",
+      description: "Scientific Baccalaureate with a specialization in mathematics and physics, obtained with highest honors.",
+      location: "Bertoua, Cameroon"
     }
   ];
 

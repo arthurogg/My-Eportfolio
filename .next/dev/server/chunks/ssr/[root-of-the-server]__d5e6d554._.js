@@ -65,80 +65,56 @@ function AcademicProjects() {
     // Données des projets académiques
     const projects = [
         {
-            title: "Distributed Data Pipeline",
-            description: "Built a real-time data processing pipeline handling millions of events per second using modern big data technologies.",
-            image: "/project-pipeline.jpg",
+            title: "SMA Medical Office System",
+            description: "A multi-agent system for managing a virtual medical office with doctor, patient, and secretary agents implemented using JADE.",
+            image: "/image1.png",
             outcomes: [
-                "Processed 2M+ events per second with 99.9% uptime",
-                "Reduced data latency by 75% compared to previous system",
-                "Implemented fault-tolerant architecture with auto-recovery"
+                "Implemented agents for a doctor, patient, and secretary to manage medical office workflows",
+                "Designed interaction protocols for scheduling, diagnosis, and communication between agents",
+                "Developed a custom container setup for agent communication using JADE"
             ],
             technologies: [
-                "Apache Spark",
-                "Kafka",
-                "Python",
-                "Docker",
-                "Kubernetes"
+                "Java",
+                "Jade Framework"
             ],
             links: {
-                demo: "https://github.com/Zacharie-TENE/pipeline-project"
+                demo: "https://github.com/arthurogg"
             }
         },
         {
-            title: "ML-Based Anomaly Detection",
-            description: "Developed a machine learning model for detecting anomalies in industrial sensor data with high precision.",
-            image: "/project-ml.jpg",
+            title: "ML-Based Cardiac Pathology Detection ",
+            description: "Developed a machine learning model for detecting cardiac pathology using a dataset from cameroon patients with high precision.",
+            image: "/image2.png",
             outcomes: [
                 "Achieved 95% accuracy in anomaly detection",
-                "Reduced false positives by 60%",
-                "Deployed in production environment with real-time monitoring"
+                "Reduced false positives by 60%"
             ],
             technologies: [
                 "TensorFlow",
                 "Scikit-learn",
-                "Docker",
-                "FastAPI",
-                "PostgreSQL"
+                "Pandas",
+                "Numpy",
+                "Python"
             ],
             links: {
                 demo: "https://github.com/Zacharie-TENE/anomaly-detection"
             }
         },
         {
-            title: "HPC Simulation Framework",
-            description: "Optimized parallel computing algorithms for scientific simulations on high-performance cluster systems.",
-            image: "/project-hpc.jpg",
-            outcomes: [
-                "Improved simulation performance by 300%",
-                "Scaled to 1000+ cores efficiently",
-                "Published research paper on optimization techniques"
-            ],
-            technologies: [
-                "MPI",
-                "OpenMP",
-                "C++",
-                "CUDA",
-                "Linux"
-            ],
-            links: {
-                demo: "https://github.com/Zacharie-TENE/hpc-simulation"
-            }
-        },
-        {
-            title: "Data Visualization Dashboard",
-            description: "Created interactive dashboards for complex data analysis and business intelligence reporting.",
-            image: "/project-dashboard.jpg",
+            title: "Smart Diagnosis : Systemic lupus erythematosus Case",
+            description: "Development of a neural network to predict the presence of systemic lupus erythematosus in patients based on clinical data. This binary classification model aids in the early diagnosis of this complex autoimmune disease.",
+            image: "/image4.png",
             outcomes: [
                 "Reduced report generation time by 80%",
                 "Integrated 15+ data sources",
                 "Enabled real-time decision making for stakeholders"
             ],
             technologies: [
-                "React",
-                "D3.js",
-                "Python",
-                "Flask",
-                "MongoDB"
+                "TensorFlow",
+                "Scikit-learn",
+                "Pandas",
+                "Numpy",
+                "Python"
             ],
             links: {
                 demo: "https://github.com/Zacharie-TENE/data-dashboard"
@@ -161,7 +137,7 @@ function AcademicProjects() {
                             children: "My Work"
                         }, void 0, false, {
                             fileName: "[project]/app/education/projects/page.tsx",
-                            lineNumber: 71,
+                            lineNumber: 57,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -175,13 +151,13 @@ function AcademicProjects() {
                                     children: "Projects"
                                 }, void 0, false, {
                                     fileName: "[project]/app/education/projects/page.tsx",
-                                    lineNumber: 75,
+                                    lineNumber: 61,
                                     columnNumber: 22
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/education/projects/page.tsx",
-                            lineNumber: 74,
+                            lineNumber: 60,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -193,7 +169,7 @@ function AcademicProjects() {
                                 "Notable research and development work during my academic journey. To see more, visit my",
                                 ' ',
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                    href: "https://github.com/Zacharie-TENE",
+                                    href: "https://github.com/arthurogg",
                                     target: "_blank",
                                     rel: "noopener noreferrer",
                                     className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$education$2f$projects$2f$page$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].githubLink,
@@ -203,30 +179,30 @@ function AcademicProjects() {
                                             className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$education$2f$projects$2f$page$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].githubIcon
                                         }, void 0, false, {
                                             fileName: "[project]/app/education/projects/page.tsx",
-                                            lineNumber: 80,
+                                            lineNumber: 66,
                                             columnNumber: 30
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/education/projects/page.tsx",
-                                    lineNumber: 79,
+                                    lineNumber: 65,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/education/projects/page.tsx",
-                            lineNumber: 77,
+                            lineNumber: 63,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/education/projects/page.tsx",
-                    lineNumber: 70,
+                    lineNumber: 56,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/education/projects/page.tsx",
-                lineNumber: 69,
+                lineNumber: 55,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -242,20 +218,20 @@ function AcademicProjects() {
                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$education$2f$projects$2f$page$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].sectionIcon
                             }, void 0, false, {
                                 fileName: "[project]/app/education/projects/page.tsx",
-                                lineNumber: 89,
+                                lineNumber: 75,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 children: "Featured Projects"
                             }, void 0, false, {
                                 fileName: "[project]/app/education/projects/page.tsx",
-                                lineNumber: 90,
+                                lineNumber: 76,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/education/projects/page.tsx",
-                        lineNumber: 88,
+                        lineNumber: 74,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -278,12 +254,12 @@ function AcademicProjects() {
                                             priority: index === 0
                                         }, void 0, false, {
                                             fileName: "[project]/app/education/projects/page.tsx",
-                                            lineNumber: 101,
+                                            lineNumber: 87,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/education/projects/page.tsx",
-                                        lineNumber: 100,
+                                        lineNumber: 86,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -294,7 +270,7 @@ function AcademicProjects() {
                                                 children: project.title
                                             }, void 0, false, {
                                                 fileName: "[project]/app/education/projects/page.tsx",
-                                                lineNumber: 111,
+                                                lineNumber: 97,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -302,7 +278,7 @@ function AcademicProjects() {
                                                 children: project.description
                                             }, void 0, false, {
                                                 fileName: "[project]/app/education/projects/page.tsx",
-                                                lineNumber: 113,
+                                                lineNumber: 99,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -313,7 +289,7 @@ function AcademicProjects() {
                                                         children: "Key Outcomes:"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/education/projects/page.tsx",
-                                                        lineNumber: 118,
+                                                        lineNumber: 104,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -322,18 +298,18 @@ function AcademicProjects() {
                                                                 children: outcome
                                                             }, idx, false, {
                                                                 fileName: "[project]/app/education/projects/page.tsx",
-                                                                lineNumber: 121,
+                                                                lineNumber: 107,
                                                                 columnNumber: 23
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/education/projects/page.tsx",
-                                                        lineNumber: 119,
+                                                        lineNumber: 105,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/education/projects/page.tsx",
-                                                lineNumber: 117,
+                                                lineNumber: 103,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -343,12 +319,12 @@ function AcademicProjects() {
                                                         children: tech
                                                     }, idx, false, {
                                                         fileName: "[project]/app/education/projects/page.tsx",
-                                                        lineNumber: 128,
+                                                        lineNumber: 114,
                                                         columnNumber: 21
                                                     }, this))
                                             }, void 0, false, {
                                                 fileName: "[project]/app/education/projects/page.tsx",
-                                                lineNumber: 126,
+                                                lineNumber: 112,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -362,41 +338,41 @@ function AcademicProjects() {
                                                         "View demo/report ",
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaExternalLinkAlt"], {}, void 0, false, {
                                                             fileName: "[project]/app/education/projects/page.tsx",
-                                                            lineNumber: 142,
+                                                            lineNumber: 128,
                                                             columnNumber: 40
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/education/projects/page.tsx",
-                                                    lineNumber: 136,
+                                                    lineNumber: 122,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/education/projects/page.tsx",
-                                                lineNumber: 134,
+                                                lineNumber: 120,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/education/projects/page.tsx",
-                                        lineNumber: 110,
+                                        lineNumber: 96,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, index, true, {
                                 fileName: "[project]/app/education/projects/page.tsx",
-                                lineNumber: 95,
+                                lineNumber: 81,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/app/education/projects/page.tsx",
-                        lineNumber: 93,
+                        lineNumber: 79,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/education/projects/page.tsx",
-                lineNumber: 87,
+                lineNumber: 73,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -409,7 +385,7 @@ function AcademicProjects() {
                         children: "Want to see my educational background?"
                     }, void 0, false, {
                         fileName: "[project]/app/education/projects/page.tsx",
-                        lineNumber: 154,
+                        lineNumber: 140,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -421,25 +397,25 @@ function AcademicProjects() {
                                 children: "→"
                             }, void 0, false, {
                                 fileName: "[project]/app/education/projects/page.tsx",
-                                lineNumber: 156,
+                                lineNumber: 142,
                                 columnNumber: 31
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/education/projects/page.tsx",
-                        lineNumber: 155,
+                        lineNumber: 141,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/education/projects/page.tsx",
-                lineNumber: 153,
+                lineNumber: 139,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/education/projects/page.tsx",
-        lineNumber: 67,
+        lineNumber: 53,
         columnNumber: 5
     }, this);
 }

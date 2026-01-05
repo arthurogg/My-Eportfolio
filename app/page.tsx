@@ -1,5 +1,5 @@
 import styles from './page.module.css';
-import { FaLinkedin, FaGithub, FaWhatsapp } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaWhatsapp, FaFileAlt } from 'react-icons/fa';
 
 export default function Home() {
   return (
@@ -18,14 +18,27 @@ export default function Home() {
             This portfolio retraces my journey, my data-oriented projects, and the values that define me.
           </p>
 
-          <a href="/about" className={`${styles.btnAbout} ${styles.reveal}`} style={{ animationDelay: '0.6s' }}>
-            About Me <span>»</span>
-          </a>
+          <div className={`${styles.btnGroup} ${styles.reveal}`} style={{ animationDelay: '0.6s' }}>
+            <a href="/cv.pdf" target="_blank" rel="noopener noreferrer" className={styles.btnPrimary}>
+              <FaFileAlt />
+              See my CV
+            </a>
+            <a href="/projects" className={styles.btnSecondary}>
+              <span className={styles.btnIcon}>◆</span>
+              Professional Projects
+            </a>
+          </div>
 
           <div className={`${styles.socials} ${styles.reveal}`} style={{ animationDelay: '0.8s' }}>
-            <FaLinkedin />
-            <FaGithub />
-            <FaWhatsapp />
+            <a href="https://linkedin.com/in/votre-profil" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
+              <FaLinkedin />
+            </a>
+            <a href="https://github.com/votre-profil" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
+              <FaGithub />
+            </a>
+            <a href="https://wa.me/votre-numero" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
+              <FaWhatsapp />
+            </a>
           </div>
         </div>
 

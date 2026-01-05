@@ -20,7 +20,7 @@ export default function Skill() {
     datasets: [
       {
         label: 'Skill Level',
-        data: [9, 7, 8, 8, 6, 7, 9],
+        data: [7, 5, 7, 7, 6, 9, 6],
         backgroundColor: 'rgba(59, 130, 246, 0.2)',
         borderColor: '#3b82f6',
         borderWidth: 2,
@@ -32,11 +32,10 @@ export default function Skill() {
     {
       name: "Languages",
       techs: [
-        { name: "Java", icon: "/icons/java.png" },
-        { name: "Python", icon: "/icons/python.png" },
-        { name: "JavaScript", icon: "/icons/js.png" },
-        { name: "TypeScript", icon: "/icons/ts.png" },
-        { name: "C", icon: "/icons/c.png" },
+        { name: "Java", icon: "image_java.png" },
+        { name: "Python", icon: "image_python.png" },
+        { name: "JavaScript", icon: "image_js.png" },
+        { name: "C", icon: "image_c.png" },
       ]
     },
     {

@@ -5,24 +5,14 @@ import { FaCalendarAlt, FaMapMarkerAlt, FaExternalLinkAlt } from 'react-icons/fa
 export default function Experience() {
   const experiences = [
     {
-      company: "Nom de l'entreprise",
-      logo: "/logos/company1.png", // ou null si pas de logo
-      role: "Titre du poste / Stage",
-      period: "Juin 2024 - Août 2024",
-      location: "Toulouse, France",
-      description: "Description détaillée de tes missions, responsabilités et réalisations durant ce stage.",
-      skills: ["React", "Node.js", "Python", "SQL"],
-      link: "https://entreprise.com" // optionnel
-    },
-    {
-      company: "Autre entreprise",
-      logo: null,
-      role: "Stagiaire Développeur",
-      period: "Janvier 2024 - Mars 2024",
-      location: "Paris, France",
-      description: "Autre description de tes missions et accomplissements.",
-      skills: ["Java", "Spring Boot", "Docker"],
-      link: null
+      company: "IREX : Institut de Retour d'Expérience",
+      logo: "image_irex.png",
+      role: "Stagiaire en Interlligence Artificielle",
+      period: "Juin 2025 - Aout 2025",
+      location: "Bourcheville, Quebec",
+      description: "Initiation au télé-travail, apprentissage des méthodes de machines learning et documentation des solutions fournies ",
+      skills: ["Python", "Numpy", "Télé-travail"],
+      link: "https://www.irex.aretex.ca"
     },
   ];
 

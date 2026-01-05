@@ -70,10 +70,18 @@ function AcademicBackground() {
         {
             period: "2021 - 2025",
             school: "ENSPY (École Nationale Supérieure Polytechnique de Yaoundé)",
-            path: "",
+            path: "/image.png",
             degree: "Engineering Degree",
             description: "Foundation in computer science, mathematics, and engineering principles.",
             location: "Yaoundé, Cameroon"
+        },
+        {
+            period: "2020 - 2021 ",
+            school: "Teerenstra Bilingual High School ",
+            path: "/image3.png",
+            degree: "Scientific Baccalaureate",
+            description: "Scientific Baccalaureate with a specialization in mathematics and physics, obtained with highest honors.",
+            location: "Bertoua, Cameroon"
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -92,7 +100,7 @@ function AcademicBackground() {
                             children: "My Journey"
                         }, void 0, false, {
                             fileName: "[project]/app/education/background/page.tsx",
-                            lineNumber: 30,
+                            lineNumber: 38,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -106,13 +114,13 @@ function AcademicBackground() {
                                     children: "Background"
                                 }, void 0, false, {
                                     fileName: "[project]/app/education/background/page.tsx",
-                                    lineNumber: 34,
+                                    lineNumber: 42,
                                     columnNumber: 22
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/education/background/page.tsx",
-                            lineNumber: 33,
+                            lineNumber: 41,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -123,18 +131,18 @@ function AcademicBackground() {
                             children: "A rigorous academic training that has shaped my approach to data science and engineering."
                         }, void 0, false, {
                             fileName: "[project]/app/education/background/page.tsx",
-                            lineNumber: 36,
+                            lineNumber: 44,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/education/background/page.tsx",
-                    lineNumber: 29,
+                    lineNumber: 37,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/education/background/page.tsx",
-                lineNumber: 28,
+                lineNumber: 36,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -150,20 +158,20 @@ function AcademicBackground() {
                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$education$2f$background$2f$page$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].sectionIcon
                             }, void 0, false, {
                                 fileName: "[project]/app/education/background/page.tsx",
-                                lineNumber: 45,
+                                lineNumber: 53,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 children: "Academic Timeline"
                             }, void 0, false, {
                                 fileName: "[project]/app/education/background/page.tsx",
-                                lineNumber: 46,
+                                lineNumber: 54,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/education/background/page.tsx",
-                        lineNumber: 44,
+                        lineNumber: 52,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -178,7 +186,7 @@ function AcademicBackground() {
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$education$2f$background$2f$page$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].timelineDot
                                     }, void 0, false, {
                                         fileName: "[project]/app/education/background/page.tsx",
-                                        lineNumber: 56,
+                                        lineNumber: 64,
                                         columnNumber: 14
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -192,7 +200,7 @@ function AcademicBackground() {
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaCalendar"], {}, void 0, false, {
                                                                 fileName: "[project]/app/education/background/page.tsx",
-                                                                lineNumber: 60,
+                                                                lineNumber: 68,
                                                                 columnNumber: 21
                                                             }, this),
                                                             " ",
@@ -200,7 +208,7 @@ function AcademicBackground() {
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/education/background/page.tsx",
-                                                        lineNumber: 59,
+                                                        lineNumber: 67,
                                                         columnNumber: 19
                                                     }, this),
                                                     item.path && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -215,18 +223,18 @@ function AcademicBackground() {
                                                             }
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/education/background/page.tsx",
-                                                            lineNumber: 64,
+                                                            lineNumber: 72,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/education/background/page.tsx",
-                                                        lineNumber: 63,
+                                                        lineNumber: 71,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/education/background/page.tsx",
-                                                lineNumber: 58,
+                                                lineNumber: 66,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -234,7 +242,7 @@ function AcademicBackground() {
                                                 children: item.school
                                             }, void 0, false, {
                                                 fileName: "[project]/app/education/background/page.tsx",
-                                                lineNumber: 74,
+                                                lineNumber: 82,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -242,7 +250,7 @@ function AcademicBackground() {
                                                 children: item.degree
                                             }, void 0, false, {
                                                 fileName: "[project]/app/education/background/page.tsx",
-                                                lineNumber: 75,
+                                                lineNumber: 83,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -250,7 +258,7 @@ function AcademicBackground() {
                                                 children: item.description
                                             }, void 0, false, {
                                                 fileName: "[project]/app/education/background/page.tsx",
-                                                lineNumber: 76,
+                                                lineNumber: 84,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -258,30 +266,30 @@ function AcademicBackground() {
                                                 children: item.location
                                             }, void 0, false, {
                                                 fileName: "[project]/app/education/background/page.tsx",
-                                                lineNumber: 77,
+                                                lineNumber: 85,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/education/background/page.tsx",
-                                        lineNumber: 57,
+                                        lineNumber: 65,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, index, true, {
                                 fileName: "[project]/app/education/background/page.tsx",
-                                lineNumber: 51,
+                                lineNumber: 59,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/app/education/background/page.tsx",
-                        lineNumber: 49,
+                        lineNumber: 57,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/education/background/page.tsx",
-                lineNumber: 43,
+                lineNumber: 51,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -294,7 +302,7 @@ function AcademicBackground() {
                         children: "Interested in my academic projects?"
                     }, void 0, false, {
                         fileName: "[project]/app/education/background/page.tsx",
-                        lineNumber: 86,
+                        lineNumber: 94,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -306,25 +314,25 @@ function AcademicBackground() {
                                 children: "→"
                             }, void 0, false, {
                                 fileName: "[project]/app/education/background/page.tsx",
-                                lineNumber: 88,
+                                lineNumber: 96,
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/education/background/page.tsx",
-                        lineNumber: 87,
+                        lineNumber: 95,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/education/background/page.tsx",
-                lineNumber: 85,
+                lineNumber: 93,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/education/background/page.tsx",
-        lineNumber: 26,
+        lineNumber: 34,
         columnNumber: 5
     }, this);
 }

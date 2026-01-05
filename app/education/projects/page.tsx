@@ -6,57 +6,43 @@ export default function AcademicProjects() {
   // Données des projets académiques
   const projects = [
     {
-      title: "Distributed Data Pipeline",
-      description: "Built a real-time data processing pipeline handling millions of events per second using modern big data technologies.",
-      image: "/project-pipeline.jpg", // Vous pouvez ajouter des images pour vos projets
+      title: "SMA Medical Office System",
+      description: "A multi-agent system for managing a virtual medical office with doctor, patient, and secretary agents implemented using JADE.",
+      image: "/image1.png", // Vous pouvez ajouter des images pour vos projets
       outcomes: [
-        "Processed 2M+ events per second with 99.9% uptime",
-        "Reduced data latency by 75% compared to previous system",
-        "Implemented fault-tolerant architecture with auto-recovery"
+        "Implemented agents for a doctor, patient, and secretary to manage medical office workflows",
+        "Designed interaction protocols for scheduling, diagnosis, and communication between agents",
+        "Developed a custom container setup for agent communication using JADE"
       ],
-      technologies: ["Apache Spark", "Kafka", "Python", "Docker", "Kubernetes"],
+      technologies: ["Java", "Jade Framework"],
       links: {
-        demo: "https://github.com/Zacharie-TENE/pipeline-project"
+        demo: "https://github.com/arthurogg"
       }
     },
     {
-      title: "ML-Based Anomaly Detection",
-      description: "Developed a machine learning model for detecting anomalies in industrial sensor data with high precision.",
-      image: "/project-ml.jpg",
+      title: "ML-Based Cardiac Pathology Detection ",
+      description: "Developed a machine learning model for detecting cardiac pathology using a dataset from cameroon patients with high precision.",
+      image: "/image2.png",
       outcomes: [
         "Achieved 95% accuracy in anomaly detection",
         "Reduced false positives by 60%",
-        "Deployed in production environment with real-time monitoring"
       ],
-      technologies: ["TensorFlow", "Scikit-learn", "Docker", "FastAPI", "PostgreSQL"],
+      technologies: ["TensorFlow", "Scikit-learn", "Pandas", "Numpy", "Python"],
       links: {
         demo: "https://github.com/Zacharie-TENE/anomaly-detection"
       }
     },
+
     {
-      title: "HPC Simulation Framework",
-      description: "Optimized parallel computing algorithms for scientific simulations on high-performance cluster systems.",
-      image: "/project-hpc.jpg",
-      outcomes: [
-        "Improved simulation performance by 300%",
-        "Scaled to 1000+ cores efficiently",
-        "Published research paper on optimization techniques"
-      ],
-      technologies: ["MPI", "OpenMP", "C++", "CUDA", "Linux"],
-      links: {
-        demo: "https://github.com/Zacharie-TENE/hpc-simulation"
-      }
-    },
-    {
-      title: "Data Visualization Dashboard",
-      description: "Created interactive dashboards for complex data analysis and business intelligence reporting.",
-      image: "/project-dashboard.jpg",
+      title: "Smart Diagnosis : Systemic lupus erythematosus Case",
+      description: "Development of a neural network to predict the presence of systemic lupus erythematosus in patients based on clinical data. This binary classification model aids in the early diagnosis of this complex autoimmune disease.",
+      image: "/image4.png",
       outcomes: [
         "Reduced report generation time by 80%",
         "Integrated 15+ data sources",
         "Enabled real-time decision making for stakeholders"
       ],
-      technologies: ["React", "D3.js", "Python", "Flask", "MongoDB"],
+      technologies: ["TensorFlow", "Scikit-learn", "Pandas", "Numpy", "Python"],
       links: {
         demo: "https://github.com/Zacharie-TENE/data-dashboard"
       }
@@ -76,7 +62,7 @@ export default function AcademicProjects() {
           </h1>
           <p className={`${styles.description} ${styles.reveal}`} style={{ animationDelay: '0.4s' }}>
             Notable research and development work during my academic journey. To see more, visit my{' '}
-            <a href="https://github.com/Zacharie-TENE" target="_blank" rel="noopener noreferrer" className={styles.githubLink}>
+            <a href="https://github.com/arthurogg" target="_blank" rel="noopener noreferrer" className={styles.githubLink}>
               GitHub profile <FaGithub className={styles.githubIcon} />
             </a>
           </p>

@@ -1,106 +1,236 @@
-/* Variables CSS pour polices uniformes */
-:root {
-  --font-display: 'Cormorant Garamond', Georgia, serif;
-  --font-body: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
-}
+/* ===========================================
+   CAREER PAGE - Soft & Chic Aesthetic (Sky Blue)
+   =========================================== */
 
-.container {
-    max-width: 1200px;
-    margin: 60px auto;
-    padding: 0 20px;
-    font-family: var(--font-body);
-  }
-  
-  .title {
-    font-family: var(--font-display);
-    font-size: 2.5rem;
-    font-weight: 600;
-    color: #1f1f1f;
-    margin-bottom: 10px;
-  }
-  
-  .sectionTitle {
-    font-family: var(--font-display);
-    font-size: 1.8rem;
-    font-weight: 600;
-    color: #1f1f1f;
-  }
-  
-  .cardTitle {
-    font-family: var(--font-display);
-    font-size: 1.4rem;
-    font-weight: 600;
-    color: #1f1f1f;
-  }
-  
-  .header {
-    margin-bottom: 50px;
-    text-align: left;
-  }
-  
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 25px;
-  }
-  
-  .cardLink {
-    text-decoration: none;
-  }
-  
-  .card {
-    background: #ffffff;
-    border-radius: 20px;
-    padding: 30px;
-    border: 1px solid #e2e8f0;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    height: 100%;
-    font-family: var(--font-body);
-  }
-  
-  .card h3 {
-    font-family: var(--font-display);
-    font-size: 1.4rem;
-    font-weight: 600;
-  }
-  
-  .card p {
-    font-family: var(--font-body);
-  }
-  
-  .card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
-  }
-  
-  .imageBox {
-    background: #1a232e; /* Fond sombre comme sur l'image */
-    height: 180px;
-    border-radius: 15px;
-    margin-bottom: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .iconContainer {
-    font-size: 3rem;
-    color: #ffffff;
-  }
-  
-  /* --- Système d'animation --- */
-  .reveal {
-    opacity: 0;
-    animation: fadeInUp 0.6s ease forwards;
-  }
-  
-  @keyframes fadeInUp {
-    from {
-      opacity: 0;
-      transform: translateY(30px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
+   @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Outfit:wght@300;400;500;600&display=swap');
+
+   /* CSS Variables - Harmonisées avec la page d'accueil */
+   :root {
+     --color-cream: #f0f7fc;
+     --color-ivory: #e8f4fc;
+     --color-sand: #d0e8f7;
+     --color-taupe: #8bb8d9;
+     --color-warm-gray: #6a9fc4;
+     --color-charcoal: #2c4a62;
+     --color-espresso: #1e3a4f;
+     --color-blush: #c5dff0;
+     --color-sage: #a8d4e6;
+     --color-dusty-rose: #7cb5d9;
+     --color-gold: #5a9fcf;
+     
+     --font-display: 'Cormorant Garamond', Georgia, serif;
+     --font-body: 'Outfit', -apple-system, sans-serif;
+     
+     --shadow-soft: 0 2px 20px rgba(30, 58, 79, 0.04);
+     --shadow-lifted: 0 8px 40px rgba(30, 58, 79, 0.08);
+     --shadow-glow: 0 0 60px rgba(90, 159, 207, 0.2);
+     
+     --radius-soft: 20px;
+     --radius-pill: 50px;
+   }
+   
+   .container {
+     max-width: 1200px;
+     margin: 60px auto;
+     padding: 0 20px;
+   }
+   
+   /* --- Header --- */
+   .header {
+     margin-bottom: 50px;
+     text-align: left;
+   }
+   
+   .header h1 {
+     font-family: var(--font-display);
+     font-size: clamp(2rem, 4vw, 2.8rem);
+     font-weight: 500;
+     color: var(--color-charcoal);
+     margin-bottom: 12px;
+     letter-spacing: -0.02em;
+   }
+   
+   .header p {
+     font-family: var(--font-body);
+     color: var(--color-warm-gray);
+     font-size: 1.1rem;
+     font-weight: 400;
+   }
+   
+   /* --- Grid --- */
+   .grid {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+     gap: 28px;
+   }
+   
+   /* --- Card Link --- */
+   .cardLink {
+     text-decoration: none;
+   }
+   
+   /* --- Card --- */
+   .card {
+     background: rgba(255, 255, 255, 0.8);
+     backdrop-filter: blur(10px);
+     -webkit-backdrop-filter: blur(10px);
+     border-radius: var(--radius-soft);
+     padding: 28px;
+     border: 1px solid var(--color-sand);
+     transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+     height: 100%;
+     position: relative;
+     overflow: hidden;
+   }
+   
+   .card:hover {
+     transform: translateY(-8px);
+     box-shadow: var(--shadow-lifted);
+     border-color: var(--color-dusty-rose);
+   }
+   
+   /* --- Image Box --- */
+   .imageBox {
+     background: linear-gradient(135deg, var(--color-espresso) 0%, var(--color-charcoal) 100%);
+     height: 180px;
+     border-radius: 16px;
+     margin-bottom: 22px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     overflow: hidden;
+     position: relative;
+     transition: all 0.4s ease;
+   }
+   
+   .card:hover .imageBox {
+     box-shadow: 0 8px 25px rgba(30, 58, 79, 0.2);
+   }
+   
+   /* --- Card Image --- */
+   .cardImage {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     transition: transform 0.5s ease;
+   }
+   
+   .card:hover .cardImage {
+     transform: scale(1.05);
+   }
+   
+   /* --- Icon Container --- */
+   .iconContainer {
+     font-size: 3rem;
+     color: var(--color-cream);
+     transition: transform 0.4s ease;
+   }
+   
+   .card:hover .iconContainer {
+     transform: scale(1.1);
+   }
+   
+   /* --- Card Title --- */
+   .card h3 {
+     font-family: var(--font-body);
+     font-size: 1.3rem;
+     font-weight: 600;
+     color: var(--color-espresso);
+     margin: 0 0 12px 0;
+     transition: color 0.3s ease;
+   }
+   
+   .card:hover h3 {
+     color: var(--color-charcoal);
+   }
+   
+   /* --- Card Description --- */
+   .card p {
+     font-family: var(--font-body);
+     font-size: 0.95rem;
+     font-weight: 400;
+     color: var(--color-warm-gray);
+     line-height: 1.7;
+     margin: 0;
+   }
+   
+   /* --- Card Arrow --- */
+   .cardArrow {
+     position: absolute;
+     bottom: 28px;
+     right: 28px;
+     font-size: 1.2rem;
+     color: var(--color-taupe);
+     opacity: 0;
+     transform: translateX(-10px);
+     transition: all 0.4s ease;
+   }
+   
+   .card:hover .cardArrow {
+     opacity: 1;
+     transform: translateX(0);
+     color: var(--color-gold);
+   }
+   
+   /* --- Animation --- */
+   .reveal {
+     opacity: 0;
+     transform: translateY(30px);
+     animation: fadeInUp 0.7s cubic-bezier(0.23, 1, 0.32, 1) forwards;
+   }
+   
+   @keyframes fadeInUp {
+     to {
+       opacity: 1;
+       transform: translateY(0);
+     }
+   }
+   
+   /* --- Responsive --- */
+   @media (max-width: 768px) {
+     .container {
+       margin: 40px auto;
+       padding: 0 16px;
+     }
+     
+     .header {
+       margin-bottom: 35px;
+     }
+     
+     .grid {
+       grid-template-columns: 1fr;
+       gap: 20px;
+     }
+     
+     .card {
+       padding: 24px;
+     }
+     
+     .imageBox {
+       height: 160px;
+     }
+     
+     .cardArrow {
+       opacity: 1;
+       transform: translateX(0);
+     }
+   }
+   
+   @media (max-width: 480px) {
+     .header h1 {
+       font-size: 2rem;
+     }
+     
+     .card h3 {
+       font-size: 1.15rem;
+     }
+     
+     .imageBox {
+       height: 140px;
+       border-radius: 14px;
+     }
+     
+     .iconContainer {
+       font-size: 2.5rem;
+     }
+   }
