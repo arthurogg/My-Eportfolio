@@ -33,12 +33,8 @@ export default function Contact() {
       { icon: FaLanguage, text: "French (native), English (in progress)" }
     ],
     socialLinks: [
-      { icon: FaLinkedin, href: "https://linkedin.com", label: "LinkedIn" },
-      { icon: FaGithub, href: "https://github.com", label: "GitHub" },
-      { icon: FaTwitter, href: "https://twitter.com", label: "Twitter" },
-      { icon: FaWhatsapp, href: "https://whatsapp.com", label: "WhatsApp" },
-      { icon: FaTelegram, href: "https://telegram.org", label: "Telegram" },
-      { icon: FaFacebookMessenger, href: "https://messenger.com", label: "Messenger" }
+      { icon: FaLinkedin, href: "https://linkedin.com/in/yves-arthur-negoum-wouatedem-854967302", label: "LinkedIn" },
+      { icon: FaGithub, href: "https://github.com/arthurogg", label: "GitHub" },
     ]
   };
 

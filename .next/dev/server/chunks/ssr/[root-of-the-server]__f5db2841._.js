@@ -85,15 +85,15 @@ function PPP() {
                 points: [
                     "Computer Engineering Student at ENSEEIHT",
                     "Previously studied at ENSPY, Cameroon",
-                    "Passionate about software development and cybersecurity"
+                    "Passionate about data processing projects ans solutions based on data analysis"
                 ]
             },
             {
                 title: "Career Goals",
                 points: [
-                    "Specializing in software systems and security",
-                    "Pursuing TLS-Sec track in final year if possible",
-                    "Aiming for roles in cybersecurity/software engineering"
+                    "Specializing in data science and engineering",
+                    "Pursuing Big Data & HPC expertise",
+                    "Aiming for roles in data engineering"
                 ]
             },
             {
@@ -103,18 +103,10 @@ function PPP() {
                     "Building expertise in distributed systems",
                     "Developing machine learning and AI skills"
                 ]
-            },
-            {
-                title: "Future Vision",
-                points: [
-                    "Contributing to cybersecurity innovation",
-                    "Leading high-performance computing projects",
-                    "Bridging technology gaps in emerging markets"
-                ]
             }
         ],
         pdf: {
-            href: "/resources/ppp/zacharie-igor-tene-ppp.pdf",
+            href: "/yves-arthur-negoum-ppp.pdf",
             description: "Download the complete presentation of my professional project (PDF)"
         }
     };
@@ -140,19 +132,19 @@ function PPP() {
                                     className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$ppp$2f$page$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].socialLinks,
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                            href: "https://www.linkedin.com/in/zacharie-igor-tene-fogang/",
+                                            href: "https://www.linkedin.com/in/yves-arthur-negoum-wouatedem-854967302",
                                             title: "My LinkedIn profile",
                                             target: "_blank",
                                             rel: "noopener noreferrer",
                                             className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$ppp$2f$page$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].socialLink,
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaLinkedin"], {}, void 0, false, {
                                                 fileName: "[project]/app/ppp/page.tsx",
-                                                lineNumber: 69,
+                                                lineNumber: 61,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/ppp/page.tsx",
-                                            lineNumber: 62,
+                                            lineNumber: 54,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -161,24 +153,24 @@ function PPP() {
                                             className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$ppp$2f$page$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].socialLink,
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaBriefcase"], {}, void 0, false, {
                                                 fileName: "[project]/app/ppp/page.tsx",
-                                                lineNumber: 76,
+                                                lineNumber: 68,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/ppp/page.tsx",
-                                            lineNumber: 71,
+                                            lineNumber: 63,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/ppp/page.tsx",
-                                    lineNumber: 61,
+                                    lineNumber: 53,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/ppp/page.tsx",
-                            lineNumber: 59,
+                            lineNumber: 51,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -189,18 +181,18 @@ function PPP() {
                             children: pppInfo.description
                         }, void 0, false, {
                             fileName: "[project]/app/ppp/page.tsx",
-                            lineNumber: 80,
+                            lineNumber: 72,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/ppp/page.tsx",
-                    lineNumber: 58,
+                    lineNumber: 50,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/ppp/page.tsx",
-                lineNumber: 57,
+                lineNumber: 49,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -218,20 +210,20 @@ function PPP() {
                                     className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$ppp$2f$page$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].sectionIcon
                                 }, void 0, false, {
                                     fileName: "[project]/app/ppp/page.tsx",
-                                    lineNumber: 90,
+                                    lineNumber: 82,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                     children: "Professional Presentation"
                                 }, void 0, false, {
                                     fileName: "[project]/app/ppp/page.tsx",
-                                    lineNumber: 91,
+                                    lineNumber: 83,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/ppp/page.tsx",
-                            lineNumber: 89,
+                            lineNumber: 81,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -246,19 +238,19 @@ function PPP() {
                                         type: "video/mp4"
                                     }, void 0, false, {
                                         fileName: "[project]/app/ppp/page.tsx",
-                                        lineNumber: 100,
+                                        lineNumber: 92,
                                         columnNumber: 15
                                     }, this),
                                     "Your browser does not support the video tag."
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/ppp/page.tsx",
-                                lineNumber: 95,
+                                lineNumber: 87,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/ppp/page.tsx",
-                            lineNumber: 94,
+                            lineNumber: 86,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -266,18 +258,18 @@ function PPP() {
                             children: pppInfo.video.description
                         }, void 0, false, {
                             fileName: "[project]/app/ppp/page.tsx",
-                            lineNumber: 104,
+                            lineNumber: 96,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/ppp/page.tsx",
-                    lineNumber: 88,
+                    lineNumber: 80,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/ppp/page.tsx",
-                lineNumber: 87,
+                lineNumber: 79,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -293,20 +285,20 @@ function PPP() {
                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$ppp$2f$page$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].sectionIcon
                             }, void 0, false, {
                                 fileName: "[project]/app/ppp/page.tsx",
-                                lineNumber: 113,
+                                lineNumber: 105,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 children: "Professional Journey"
                             }, void 0, false, {
                                 fileName: "[project]/app/ppp/page.tsx",
-                                lineNumber: 114,
+                                lineNumber: 106,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/ppp/page.tsx",
-                        lineNumber: 112,
+                        lineNumber: 104,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -321,7 +313,7 @@ function PPP() {
                                         children: section.title
                                     }, void 0, false, {
                                         fileName: "[project]/app/ppp/page.tsx",
-                                        lineNumber: 124,
+                                        lineNumber: 116,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -329,29 +321,29 @@ function PPP() {
                                                 children: point
                                             }, idx, false, {
                                                 fileName: "[project]/app/ppp/page.tsx",
-                                                lineNumber: 127,
+                                                lineNumber: 119,
                                                 columnNumber: 19
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/app/ppp/page.tsx",
-                                        lineNumber: 125,
+                                        lineNumber: 117,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, index, true, {
                                 fileName: "[project]/app/ppp/page.tsx",
-                                lineNumber: 119,
+                                lineNumber: 111,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/app/ppp/page.tsx",
-                        lineNumber: 117,
+                        lineNumber: 109,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/ppp/page.tsx",
-                lineNumber: 111,
+                lineNumber: 103,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -368,14 +360,14 @@ function PPP() {
                                 children: "Complete PPP Document"
                             }, void 0, false, {
                                 fileName: "[project]/app/ppp/page.tsx",
-                                lineNumber: 139,
+                                lineNumber: 131,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 children: "Access my detailed professional project presentation"
                             }, void 0, false, {
                                 fileName: "[project]/app/ppp/page.tsx",
-                                lineNumber: 140,
+                                lineNumber: 132,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -385,14 +377,14 @@ function PPP() {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaDownload"], {}, void 0, false, {
                                         fileName: "[project]/app/ppp/page.tsx",
-                                        lineNumber: 146,
+                                        lineNumber: 138,
                                         columnNumber: 15
                                     }, this),
                                     " Download Detailed PPP Document"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/ppp/page.tsx",
-                                lineNumber: 141,
+                                lineNumber: 133,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -400,23 +392,23 @@ function PPP() {
                                 children: pppInfo.pdf.description
                             }, void 0, false, {
                                 fileName: "[project]/app/ppp/page.tsx",
-                                lineNumber: 148,
+                                lineNumber: 140,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/ppp/page.tsx",
-                        lineNumber: 138,
+                        lineNumber: 130,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/ppp/page.tsx",
-                    lineNumber: 137,
+                    lineNumber: 129,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/ppp/page.tsx",
-                lineNumber: 136,
+                lineNumber: 128,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -432,20 +424,20 @@ function PPP() {
                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$ppp$2f$page$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].sectionIcon
                             }, void 0, false, {
                                 fileName: "[project]/app/ppp/page.tsx",
-                                lineNumber: 158,
+                                lineNumber: 150,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 children: "Professional Interviews & Networking"
                             }, void 0, false, {
                                 fileName: "[project]/app/ppp/page.tsx",
-                                lineNumber: 159,
+                                lineNumber: 151,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/ppp/page.tsx",
-                        lineNumber: 157,
+                        lineNumber: 149,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -463,14 +455,14 @@ function PPP() {
                                             children: "Interview on MyJobGlasses"
                                         }, void 0, false, {
                                             fileName: "[project]/app/ppp/page.tsx",
-                                            lineNumber: 166,
+                                            lineNumber: 158,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             children: "As I have a strong interest in both cybersecurity and software engineering, with a long-term goal of specializing in cybersecurity through further studies, I have interviewed both software engineers and a cybersecurity professional to gain deeper insights into these fields. Additionally, I attended a cybersecurity conference organized by Wavestone to enhance my understanding of the domain."
                                         }, void 0, false, {
                                             fileName: "[project]/app/ppp/page.tsx",
-                                            lineNumber: 167,
+                                            lineNumber: 159,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -486,12 +478,12 @@ function PPP() {
                                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$ppp$2f$page$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].interviewImage
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/ppp/page.tsx",
-                                                        lineNumber: 176,
+                                                        lineNumber: 168,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/ppp/page.tsx",
-                                                    lineNumber: 175,
+                                                    lineNumber: 167,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -504,12 +496,12 @@ function PPP() {
                                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$ppp$2f$page$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].interviewImage
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/ppp/page.tsx",
-                                                        lineNumber: 185,
+                                                        lineNumber: 177,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/ppp/page.tsx",
-                                                    lineNumber: 184,
+                                                    lineNumber: 176,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -522,35 +514,18 @@ function PPP() {
                                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$ppp$2f$page$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].interviewImage
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/ppp/page.tsx",
-                                                        lineNumber: 194,
+                                                        lineNumber: 186,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/ppp/page.tsx",
-                                                    lineNumber: 193,
+                                                    lineNumber: 185,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/ppp/page.tsx",
-                                            lineNumber: 174,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                            href: "/resources/ppp/myjobglasses_orientation.pdf",
-                                            download: true,
-                                            className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$ppp$2f$page$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].downloadBtn,
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaDownload"], {}, void 0, false, {
-                                                    fileName: "[project]/app/ppp/page.tsx",
-                                                    lineNumber: 209,
-                                                    columnNumber: 17
-                                                }, this),
-                                                " Download MyJobGlasses Achievement"
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/app/ppp/page.tsx",
-                                            lineNumber: 204,
+                                            lineNumber: 166,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -558,18 +533,18 @@ function PPP() {
                                             children: "MyJobGlasses is one of the networking tools I use to connect with professionals and elaborate on my professional projects. This document is a summary of my practice on the platform."
                                         }, void 0, false, {
                                             fileName: "[project]/app/ppp/page.tsx",
-                                            lineNumber: 211,
+                                            lineNumber: 196,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/ppp/page.tsx",
-                                    lineNumber: 165,
+                                    lineNumber: 157,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/ppp/page.tsx",
-                                lineNumber: 164,
+                                lineNumber: 156,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -587,27 +562,27 @@ function PPP() {
                                                     className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$ppp$2f$page$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].networkingIcon
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/ppp/page.tsx",
-                                                    lineNumber: 222,
+                                                    lineNumber: 207,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                     children: "Professional Networking"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/ppp/page.tsx",
-                                                    lineNumber: 223,
+                                                    lineNumber: 208,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/ppp/page.tsx",
-                                            lineNumber: 221,
+                                            lineNumber: 206,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             children: "To further explore opportunities I could pursue after my studies, should my plans not unfold as expected, I utilize several professional platforms and resources:"
                                         }, void 0, false, {
                                             fileName: "[project]/app/ppp/page.tsx",
-                                            lineNumber: 226,
+                                            lineNumber: 211,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -620,14 +595,14 @@ function PPP() {
                                                             children: "🌐 ETE Community"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/ppp/page.tsx",
-                                                            lineNumber: 233,
+                                                            lineNumber: 218,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                             children: "A community platform where former engineers share their career experiences through online webinars, providing a comprehensive view of potential job opportunities after graduation."
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/ppp/page.tsx",
-                                                            lineNumber: 234,
+                                                            lineNumber: 219,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -638,13 +613,13 @@ function PPP() {
                                                             children: "Visit ETE Community"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/ppp/page.tsx",
-                                                            lineNumber: 238,
+                                                            lineNumber: 223,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/ppp/page.tsx",
-                                                    lineNumber: 232,
+                                                    lineNumber: 217,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -654,7 +629,7 @@ function PPP() {
                                                             children: "🔒 Cybersecurity Insights"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/ppp/page.tsx",
-                                                            lineNumber: 249,
+                                                            lineNumber: 234,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -662,7 +637,7 @@ function PPP() {
                     which offers valuable insights into the path of a cybersecurity professional.`
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/ppp/page.tsx",
-                                                            lineNumber: 250,
+                                                            lineNumber: 235,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -676,7 +651,7 @@ function PPP() {
                                                                     children: "YouTube Channel"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/ppp/page.tsx",
-                                                                    lineNumber: 255,
+                                                                    lineNumber: 240,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -687,19 +662,19 @@ function PPP() {
                                                                     children: "LinkedIn Profile"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/ppp/page.tsx",
-                                                                    lineNumber: 263,
+                                                                    lineNumber: 248,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/ppp/page.tsx",
-                                                            lineNumber: 254,
+                                                            lineNumber: 239,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/ppp/page.tsx",
-                                                    lineNumber: 248,
+                                                    lineNumber: 233,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -709,14 +684,14 @@ function PPP() {
                                                             children: "🎯 Career Planning"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/ppp/page.tsx",
-                                                            lineNumber: 275,
+                                                            lineNumber: 260,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                             children: "Actively growing my network and exploring opportunities through MillionRoads platform for strategic career planning and connections."
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/ppp/page.tsx",
-                                                            lineNumber: 276,
+                                                            lineNumber: 261,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -727,42 +702,42 @@ function PPP() {
                                                             children: "MillionRoads Profile"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/ppp/page.tsx",
-                                                            lineNumber: 280,
+                                                            lineNumber: 265,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/ppp/page.tsx",
-                                                    lineNumber: 274,
+                                                    lineNumber: 259,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/ppp/page.tsx",
-                                            lineNumber: 231,
+                                            lineNumber: 216,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/ppp/page.tsx",
-                                    lineNumber: 220,
+                                    lineNumber: 205,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/ppp/page.tsx",
-                                lineNumber: 219,
+                                lineNumber: 204,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/ppp/page.tsx",
-                        lineNumber: 162,
+                        lineNumber: 154,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/ppp/page.tsx",
-                lineNumber: 156,
+                lineNumber: 148,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -775,7 +750,7 @@ function PPP() {
                         children: "Interested in my professional journey?"
                     }, void 0, false, {
                         fileName: "[project]/app/ppp/page.tsx",
-                        lineNumber: 297,
+                        lineNumber: 282,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -787,25 +762,25 @@ function PPP() {
                                 children: "→"
                             }, void 0, false, {
                                 fileName: "[project]/app/ppp/page.tsx",
-                                lineNumber: 299,
+                                lineNumber: 284,
                                 columnNumber: 24
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/ppp/page.tsx",
-                        lineNumber: 298,
+                        lineNumber: 283,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/ppp/page.tsx",
-                lineNumber: 296,
+                lineNumber: 281,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/ppp/page.tsx",
-        lineNumber: 55,
+        lineNumber: 47,
         columnNumber: 5
     }, this);
 }

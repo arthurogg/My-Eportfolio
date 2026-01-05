@@ -6,40 +6,26 @@ export default function Mobility() {
     {
       city: "Toulouse",
       country: "France",
-      period: "2022 - Present",
-      description: "Engineering studies at INP-ENSEEIHT with focus on cybersecurity and networks",
-      image: "/toulouse.jpg",
+      period: "2025 - Present",
+      description: "Engineering studies at INP-ENSEEIHT with focus on Big Data and HPC",
+      image: "/image_toulouse.png",
       highlights: [
-        "Advanced cybersecurity curriculum",
-        "Research in network security",
+        "Advanced Data scientist curriculum",
+        "Research in data domains",
         "French engineering excellence",
         "International student community"
       ]
     },
     {
-      city: "Munich",
-      country: "Germany", 
-      period: "Summer 2023",
-      description: "Technical internship in cybersecurity at leading German technology company",
-      image: "/munich.jpg",
+      city: "Yaoundé",
+      country: "Cameroon", 
+      period: "Since 2021",
+      description: "Engenneering studies at National Advanced School of Engineering Yaoundé, Cameroon",
+      image: "/image_yde.png",
       highlights: [
-        "Hands-on security implementation",
-        "German engineering methodology",
-        "Cross-cultural team collaboration",
-        "Advanced technical skills development"
-      ]
-    },
-    {
-      city: "Barcelona",
-      country: "Spain",
-      period: "2021", 
-      description: "Cultural exchange program with focus on technology and innovation",
-      image: "/barcelona.jpg",
-      highlights: [
-        "Spanish language proficiency",
-        "Mediterranean culture immersion",
-        "Technology startup ecosystem",
-        "International networking"
+        "First step in informatics engineering",
+        "Mathematics and Physics foundations",
+        "Social life",
       ]
     }
   ];
@@ -47,39 +33,21 @@ export default function Mobility() {
   const interests = [
     {
       title: "Sports & Fitness",
-      description: "Running marathons, swimming, and cycling for physical and mental well-being",
-      image: "/sports.jpg",
-      icon: "🏃‍♂️"
+      description: "Running marathons and doing fitness for physical and mental well-being",
+      image: "/image_fit.png",
+      icon: " "
     },
     {
-      title: "Technology Innovation",
-      description: "Contributing to open source projects and exploring emerging technologies",
-      image: "/tech.jpg",
-      icon: "💻"
+      title: "Football",
+      description: "Playing and watching football matches, following major leagues and tournaments",
+      image: "/image_foot.png",
+      icon: " "
     },
     {
-      title: "Photography",
-      description: "Capturing landscapes and street photography during travels",
-      image: "/photography.jpg",
-      icon: "📸"
-    },
-    {
-      title: "Music & Arts",
-      description: "Guitar playing, composition, and exploring various forms of artistic expression",
-      image: "/music.jpg",
-      icon: "🎸"
-    },
-    {
-      title: "Reading & Learning",
+      title: "Streaming & Gaming",
       description: "Technical books, science fiction, and continuous learning",
-      image: "/reading.jpg",
-      icon: "📚"
-    },
-    {
-      title: "Robotics & Making",
-      description: "Arduino projects, 3D printing, and hardware prototyping",
-      image: "/robotics.jpg",
-      icon: "🤖"
+      image: "/image_game.png",
+      icon: " "
     }
   ];
 
@@ -172,19 +140,6 @@ export default function Mobility() {
       </section>
 
       {/* Psychometric Test Section */}
-      <section className={`${styles.testSection} ${styles.reveal}`} style={{ animationDelay: '1.4s' }}>
-        <div className={styles.testHeader}>
-          <span className={styles.testIcon}>🧠</span>
-          <div>
-            <h3 className={styles.testTitle}>Personality Assessment</h3>
-            <p className={styles.testDescription}>Comprehensive psychometric evaluation results</p>
-          </div>
-        </div>
-        <div className={styles.testContent}>
-          <p>Discover my personality traits, strengths, and working style through professional psychometric testing.</p>
-          <button className={styles.btnView}>View Assessment Results</button>
-        </div>
-      </section>
     </div>
   );
 }

@@ -17,15 +17,15 @@ export default function PPP() {
         points: [
           "Computer Engineering Student at ENSEEIHT",
           "Previously studied at ENSPY, Cameroon", 
-          "Passionate about software development and cybersecurity"
+          "Passionate about data processing projects ans solutions based on data analysis"
         ]
       },
       {
         title: "Career Goals",
         points: [
-          "Specializing in software systems and security",
-          "Pursuing TLS-Sec track in final year if possible",
-          "Aiming for roles in cybersecurity/software engineering"
+          "Specializing in data science and engineering",
+          "Pursuing Big Data & HPC expertise",
+          "Aiming for roles in data engineering"
         ]
       },
       {
@@ -35,18 +35,10 @@ export default function PPP() {
           "Building expertise in distributed systems",
           "Developing machine learning and AI skills"
         ]
-      },
-      {
-        title: "Future Vision",
-        points: [
-          "Contributing to cybersecurity innovation",
-          "Leading high-performance computing projects",
-          "Bridging technology gaps in emerging markets"
-        ]
       }
     ],
     pdf: {
-      href: "/resources/ppp/zacharie-igor-tene-ppp.pdf",
+      href: "/yves-arthur-negoum-ppp.pdf",
       description: "Download the complete presentation of my professional project (PDF)"
     }
   };
@@ -60,7 +52,7 @@ export default function PPP() {
             {pppInfo.title}
             <div className={styles.socialLinks}>
               <a 
-                href="https://www.linkedin.com/in/zacharie-igor-tene-fogang/" 
+                href="https://www.linkedin.com/in/yves-arthur-negoum-wouatedem-854967302" 
                 title="My LinkedIn profile" 
                 target="_blank" 
                 rel="noopener noreferrer" 
@@ -201,13 +193,6 @@ export default function PPP() {
                 </div>
               </div>
 
-              <a
-                href="/resources/ppp/myjobglasses_orientation.pdf"
-                download
-                className={styles.downloadBtn}
-              >
-                <FaDownload /> Download MyJobGlasses Achievement
-              </a>
               <span className={styles.downloadDescription}>
                 MyJobGlasses is one of the networking tools I use to connect with professionals and elaborate 
                 on my professional projects. This document is a summary of my practice on the platform.

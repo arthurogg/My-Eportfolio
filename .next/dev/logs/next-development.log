@@ -1,23 +1,28 @@
-[00:00:28.353] Server  LOG      ✓ Ready in 16.9s
-[00:00:37.854] Server  LOG      ○ Compiling / ...
-[00:00:46.610] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:53.671] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:01:11.734] Server  LOG      ✓ Compiled in 121ms
-[00:01:29.772] Server  LOG      ✓ Compiled in 12ms
-[00:02:17.422] Server  LOG      ✓ Compiled in 19ms
-[00:02:30.548] Server  LOG      ✓ Compiled in 9ms
-[00:02:39.072] Server  LOG      ✓ Compiled in 5ms
-[00:03:00.391] Server  LOG      ✓ Compiled in 8ms
-[00:04:38.124] Server  LOG      ✓ Compiled in 4ms
-[00:05:51.768] Server  LOG      ✓ Compiled in 15ms
-[00:07:48.025] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:08:06.363] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:08:23.682] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:08:32.218] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:08:38.125] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/toulouse.jpg" "received" null
-[00:08:38.127] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/munich.jpg" "received" null
-[00:08:38.168] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/barcelona.jpg" "received" null
-[00:08:38.180] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/photography.jpg" "received" null
-[00:08:38.181] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/sports.jpg" "received" null
-[00:08:38.188] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/tech.jpg" "received" null
-[00:09:50.583] Server  LOG      ✓ Compiled in 275ms
+[00:00:23.691] Server  LOG     ✓ Ready in 17.9s
+[00:00:42.504] Server  LOG     ○ Compiling / ...
+[00:01:00.893] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:27.594] Server  LOG     ○ Compiling /education ...
+[00:01:42.537] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:01:50.516] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:50.733] Browser WARN    Image with src "/image1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:50.733] Browser WARN    Image with src "/image2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:51.419] Browser WARN    Image with src "/image4.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:56.090] Server  LOG     ✓ Finished filesystem cache database compaction in 10.0s
+[00:01:57.943] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:03.528] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:02:08.298] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:11.634] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:02:21.514] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/logos/airbus.png" "received" null
+[00:02:21.518] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/logos/microsoft.png" "received" null
+[00:02:21.522] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/logos/google.png" "received" null
+[00:06:43.948] Server  LOG     ✓ Compiled in 5.3s
+[00:07:47.322] Server  LOG     ✓ Compiled in 8ms
+[00:08:28.761] Server  LOG     ○ Compiling /ppp ...
+[00:08:44.559] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:53.254] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/resources/course/1.png" "received" null
+[00:08:53.258] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/resources/course/2.png" "received" null
+[00:08:53.260] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/resources/course/wavestone.png" "received" null
+[00:09:51.420] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:10:01.551] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/logos/google.png" "received" null
+[00:10:01.561] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/logos/microsoft.png" "received" null
+[00:10:01.563] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/logos/airbus.png" "received" null
