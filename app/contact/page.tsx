@@ -19,7 +19,7 @@ export default function Contact() {
 
   // Bot Telegram configuration
   const BOT_TOKEN = '8579957769:AAEMZ_f0KD24xN1aETMLVsXHklc6jo9RJI4';
-  const CHAT_ID = '8050482135';
+  const CHAT_ID = '5540976506';
 
   // Contact information
   const contactInfo = {
