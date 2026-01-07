@@ -155,39 +155,27 @@ export default function PPP() {
           {/* Column 1: MyJobGlasses */}
           <div className={`${styles.column} ${styles.reveal}`} style={{ animationDelay: '1.0s' }}>
             <div className={styles.interviewCard}>
-              <h3>Interview on MyJobGlasses</h3>
+              <h3>Interview on MyJobGlasses and LinkedIn</h3>
               <p>
-                As I have a strong interest in both cybersecurity and software engineering, with a long-term goal 
-                of specializing in cybersecurity through further studies, I have interviewed both software engineers 
-                and a cybersecurity professional to gain deeper insights into these fields. Additionally, I attended 
-                a cybersecurity conference organized by Wavestone to enhance my understanding of the domain.
+                 I have interviewed a data architect and a data scientist engineers to gain deeper insights into these fields. 
               </p>
               
               <div className={styles.imageGrid}>
                 <div className={styles.imageContainer}>
                   <Image 
-                    src="/resources/course/1.png" 
+                    src="/image_entretien.png" 
                     width={400} 
                     height={300} 
-                    alt="Software Engineer Interview" 
+                    alt="Data Architect Interview" 
                     className={styles.interviewImage}
                   />
                 </div>
                 <div className={styles.imageContainer}>
                   <Image 
-                    src="/resources/course/2.png" 
+                    src="/image_fre.png" 
                     width={400} 
                     height={300} 
-                    alt="Cybersecurity Professional Interview" 
-                    className={styles.interviewImage}
-                  />
-                </div>
-                <div className={styles.imageContainer}>
-                  <Image 
-                    src="/resources/course/wavestone.png" 
-                    width={400} 
-                    height={300} 
-                    alt="Wavestone Conference" 
+                    alt="Data Scientist LinkedIn Profile" 
                     className={styles.interviewImage}
                   />
                 </div>
@@ -243,21 +231,7 @@ export default function PPP() {
                   </div>
                 </div>
 
-                <div className={styles.networkingItem}>
-                  <h4>🎯 Career Planning</h4>
-                  <p>
-                    Actively growing my network and exploring opportunities through MillionRoads platform 
-                    for strategic career planning and connections.
-                  </p>
-                  <a 
-                    href="https://enseeiht.myroad.app/intentions" 
-                    className={styles.networkingLink}
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                  >
-                    MillionRoads Profile
-                  </a>
-                </div>
+               
               </div>
             </div>
           </div>

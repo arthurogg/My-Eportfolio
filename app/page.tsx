@@ -19,7 +19,7 @@ export default function Home() {
           </p>
 
           <div className={`${styles.btnGroup} ${styles.reveal}`} style={{ animationDelay: '0.6s' }}>
-            <a href="/cv_Negoum.pdf" target="_blank" rel="noopener noreferrer" className={styles.btnPrimary}>
+            <a href="/Location Paris, France Mobile (+33)699086807.pdf" target="_blank" rel="noopener noreferrer" className={styles.btnPrimary}>
               <FaFileAlt />
               See my CV
             </a>

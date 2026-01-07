@@ -19,21 +19,21 @@ export default function Internships() {
       },
       applicationStatus: "Applied",
       documents: {
-        cv: "cv_Negoum.pdf",
+        cv: "Negoum.pdf",
         coverLetter: "/documents/CoverLetter_Google_EN.pdf"
       }
     },
     {
       id: 2,
-      name: "Airbus",
-      logo: "/logos/airbus.png",
-      description: "European aerospace corporation designing, manufacturing and selling civil and military aerospace products.",
-      location: "Toulouse, France",
+      name: "Thales",
+      logo: "/image_thals.png",
+      description: "Fabrication pour l’aérospatiale et la défense",
+      location: "Meudon , Ile-De-France",
       jobOffer: {
-        title: "Stage Ingénieur Data Science",
-        description: "Développement d'algorithmes d'IA pour l'optimisation des systèmes aéronautiques.",
-        requirements: ["Formation ingénieur", "Python/MATLAB", "Expérience en aéronautique"],
-        link: "https://www.airbus.com/careers/"
+        title: "Stage Ingénieur optimisation par IA H/F",
+        description: "Ce stage consiste à développer une IA capable d’analyser automatiquement un code source complet, de générer des suggestions d’optimisation en premier niveau, d’exécuter ce processus via un job SLURM GPU long, et d’intégrer un système de monitoring (ex. Pyroscope) ainsi qu’un système multi-agents pour tester et valider les optimisations proposées.",
+        requirements: ["Formation ingénieur", "Python/MATLAB"],
+        link: "https://www.linkedin.com/jobs/search/?currentJobId=4343761158&keywords=thales%20toulouse&origin=BLENDED_SEARCH_RESULT_NAVIGATION_SEE_ALL&originToLandingJobPostings=4343552486%2C4343741532%2C4345871412"
       },
       applicationStatus: "Preparing",
       documents: {
