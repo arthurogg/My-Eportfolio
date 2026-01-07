@@ -1,12 +1,6 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/career/experience/page": "app/career/experience/page.js",
-  "/career/internships/page": "app/career/internships/page.js",
   "/career/page": "app/career/page.js",
   "/education/background/page": "app/education/background/page.js",
-  "/education/page": "app/education/page.js",
-  "/education/projects/page": "app/education/projects/page.js",
-  "/page": "app/page.js",
-  "/ppp/page": "app/ppp/page.js",
-  "/skill/page": "app/skill/page.js"
+  "/page": "app/page.js"
 }

@@ -19,7 +19,7 @@ export default function Home() {
           </p>
 
           <div className={`${styles.btnGroup} ${styles.reveal}`} style={{ animationDelay: '0.6s' }}>
-            <a href="/Location Paris, France Mobile (+33)699086807.pdf" target="_blank" rel="noopener noreferrer" className={styles.btnPrimary}>
+            <a href="/arthur_cv_ok.pdf" target="_blank" rel="noopener noreferrer" className={styles.btnPrimary}>
               <FaFileAlt />
               See my CV
             </a>
@@ -30,13 +30,13 @@ export default function Home() {
           </div>
 
           <div className={`${styles.socials} ${styles.reveal}`} style={{ animationDelay: '0.8s' }}>
-            <a href="https://linkedin.com/in/votre-profil" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
+            <a href="https://www.linkedin.com/in/yves-arthur-negoum-wouatedem" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
               <FaLinkedin />
             </a>
-            <a href="https://github.com/votre-profil" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
+            <a href="https://github.com/arthurogg" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
               <FaGithub />
             </a>
-            <a href="https://wa.me/votre-numero" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
+            <a href="https://wa.me/+33759043831" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
               <FaWhatsapp />
             </a>
           </div>
