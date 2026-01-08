@@ -75,7 +75,7 @@ export default function PPP() {
         </div>
       </header>
 
-      {/* Video Section */}
+ {/*     {/* Video Section 
       <section className={styles.section}>
         <div className={`${styles.videoSection} ${styles.reveal}`} style={{ animationDelay: '0.4s' }}>
           <div className={styles.sectionHeader}>
@@ -98,7 +98,7 @@ export default function PPP() {
           </p>
         </div>
       </section>
-
+*/}
       {/* Key Points Section */}
       <section className={styles.section}>
         <div className={`${styles.sectionHeader} ${styles.reveal}`} style={{ animationDelay: '0.5s' }}>
